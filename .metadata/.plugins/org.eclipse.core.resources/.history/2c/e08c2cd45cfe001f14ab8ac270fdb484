@@ -1,0 +1,61 @@
+package com.amxmobile.SixBookmarks;
+
+import net.rim.device.api.ui.Field;
+import net.rim.device.api.ui.FieldChangeListener;
+import net.rim.device.api.ui.component.ButtonField;
+import net.rim.device.api.ui.component.CheckboxField;
+import net.rim.device.api.ui.component.EditField;
+import net.rim.device.api.ui.component.LabelField;
+import net.rim.device.api.ui.component.PasswordEditField;
+import net.rim.device.api.ui.container.HorizontalFieldManager;
+import net.rim.device.api.ui.container.MainScreen;
+
+public class ConfigureSingletonForm extends MainScreen implements FieldChangeListener
+{
+	private EditField _nameTextBox;
+	private PasswordEditField _urlTextBox;
+	private ButtonField _saveButton;
+	private ButtonField _deleteButton;
+	private ButtonField _backButton;
+
+	public ConfigureSingletonForm(int ordinal)
+	{
+		super();
+		
+		// title...
+		setTitle(new LabelField("Configure"));
+		
+		// set...
+		// controls...
+		this.add(new LabelField("Name"));
+		_nameTextBox = new EditField();
+		this.add(_nameTextBox);
+		
+		this.add(new LabelField("URL"));
+		_urlTextBox = new PasswordEditField();
+		this.add(_urlTextBox);
+		
+		// horiz...
+		HorizontalFieldManager horiz = new HorizontalFieldManager();
+		this.add(horiz);
+		
+		// buttons...
+		_saveButton = new ButtonField("Save", ButtonField.CONSUME_CLICK);
+		_saveButton.setChangeListener(this);
+		horiz.add(_saveButton);
+
+		// buttons...
+		_deleteButton = new ButtonField("Delete", ButtonField.CONSUME_CLICK);
+		_deleteButton.setChangeListener(this);
+		horiz.add(_deleteButton);
+
+		// buttons...
+		_backButton = new ButtonField("Back", ButtonField.CONSUME_CLICK);
+		_backButton.setChangeListener(this);
+		horiz.add(_backButton);
+	}
+
+	public void fieldChanged(Field field, int context)
+	{
+	}
+}

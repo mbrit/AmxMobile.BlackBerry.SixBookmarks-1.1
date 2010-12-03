@@ -1,0 +1,92 @@
+package com.amxmobile.SixBookmarks;
+
+import com.amxmobile.SixBookmarks.Database.Bookmark;
+import com.amxmobile.SixBookmarks.Database.BookmarkCollection;
+import com.amxmobile.SixBookmarks.Runtime.MessageBox;
+
+import net.rim.device.api.ui.Field;
+import net.rim.device.api.ui.FieldChangeListener;
+import net.rim.device.api.ui.UiApplication;
+import net.rim.device.api.ui.component.ButtonField;
+import net.rim.device.api.ui.component.LabelField;
+import net.rim.device.api.ui.component.ListField;
+import net.rim.device.api.ui.component.ObjectListField;
+import net.rim.device.api.ui.container.HorizontalFieldManager;
+import net.rim.device.api.ui.container.MainScreen;
+
+public class ConfigureForm extends MainScreen implements FieldChangeListener
+{
+	private ObjectListField _list;
+	private ButtonField _addButton;
+	private ButtonField _backButton;
+
+	public ConfigureForm()
+	{
+		super();
+		
+		// title...
+		setTitle(new LabelField("Configure"));
+		
+		// list...
+		_list = new ObjectListField();
+		this.add(_list);
+		
+		// horizontal layout...
+		HorizontalFieldManager horiz = new HorizontalFieldManager();
+		this.add(horiz);
+		
+		// add...
+		_addButton = new ButtonField("Add", ButtonField.CONSUME_CLICK);
+		_addButton.setChangeListener(this);
+		horiz.add(_addButton);
+
+		// back...
+		_backButton = new ButtonField("Back", ButtonField.CONSUME_CLICK);
+		_backButton.setChangeListener(this);
+		horiz.add(_backButton);
+		
+		// init...
+		try
+		{
+			Initialize();
+		}
+		catch(Exception ex)
+		{
+			MessageBox.Show(ex);
+		}
+	}
+
+	private void Initialize()
+	{
+		BookmarkCollection bookmarks = Bookmark.GetBookmarksForDisplay();
+
+		// sort...
+		bookmarks.SortByOrdinal();
+		
+		// add..
+		Object[] values = new Object[bookmarks.size()];
+		for(int index = 0; index < bookmarks.size(); index++)
+			values[index] = bookmarks.elementAt(index);
+		_list.set(values);
+	}
+
+	public void fieldChanged(Field field, int context)
+	{
+		try
+		{
+			if(field == _backButton)
+				UiApplication.getUiApplication().pushScreen(new ConfigureForm());
+			else if(field == _addButton)
+				HandleAdd();
+		}
+		catch(Exception ex)
+		{
+			MessageBox.Show(ex);
+		}
+	}
+
+	private void HandleAdd() throws Exception
+	{
+		throw new Exception("Not implemented.");
+	}
+}

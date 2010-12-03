@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.rim.blackberry.api.browser.BrowserSession"/>
+<fullyQualifiedTypeName name="net.rim.blackberry.api.browser.Browser"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.Runtime.SixBookmarksRuntime"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.component.ListField"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.component.ButtonField"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.Runtime.MessageBox"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.Database.BookmarkCollection"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.component.ObjectListField"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.container.HorizontalFieldManager"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.Database.Bookmark"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.ConfigureForm"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.UiApplication"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.Runtime.ErrorBucket"/>
+<fullyQualifiedTypeName name="com.amxmobile.SixBookmarks.Database.Sync"/>
+</qualifiedTypeNameHistroy>

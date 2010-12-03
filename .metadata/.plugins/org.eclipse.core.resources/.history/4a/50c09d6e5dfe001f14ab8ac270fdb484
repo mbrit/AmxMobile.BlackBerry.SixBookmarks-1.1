@@ -1,0 +1,143 @@
+package com.amxmobile.SixBookmarks;
+
+import com.amxmobile.SixBookmarks.Database.Bookmark;
+import com.amxmobile.SixBookmarks.Runtime.ErrorBucket;
+import com.amxmobile.SixBookmarks.Runtime.MessageBox;
+
+import net.rim.device.api.ui.Field;
+import net.rim.device.api.ui.FieldChangeListener;
+import net.rim.device.api.ui.UiApplication;
+import net.rim.device.api.ui.component.ButtonField;
+import net.rim.device.api.ui.component.CheckboxField;
+import net.rim.device.api.ui.component.EditField;
+import net.rim.device.api.ui.component.LabelField;
+import net.rim.device.api.ui.component.PasswordEditField;
+import net.rim.device.api.ui.container.HorizontalFieldManager;
+import net.rim.device.api.ui.container.MainScreen;
+
+public class ConfigureSingletonForm extends MainScreen implements FieldChangeListener
+{
+	private EditField _nameTextBox;
+	private EditField _urlTextBox;
+	private ButtonField _saveButton;
+	private ButtonField _deleteButton;
+	private ButtonField _backButton;
+	private Bookmark _bookmark;
+
+	public ConfigureSingletonForm(int ordinal)
+	{
+		super();
+		
+		// title...
+		setTitle(new LabelField("Configure"));
+		
+		// set...
+		// controls...
+		this.add(new LabelField("Name"));
+		_nameTextBox = new EditField();
+		this.add(_nameTextBox);
+		
+		this.add(new LabelField("URL"));
+		_urlTextBox = new EditField();
+		this.add(_urlTextBox);
+		
+		// horiz...
+		HorizontalFieldManager horiz = new HorizontalFieldManager();
+		this.add(horiz);
+		
+		// buttons...
+		_saveButton = new ButtonField("Save", ButtonField.CONSUME_CLICK);
+		_saveButton.setChangeListener(this);
+		horiz.add(_saveButton);
+
+		// buttons...
+		_deleteButton = new ButtonField("Delete", ButtonField.CONSUME_CLICK);
+		_deleteButton.setChangeListener(this);
+		horiz.add(_deleteButton);
+
+		// buttons...
+		_backButton = new ButtonField("Back", ButtonField.CONSUME_CLICK);
+		_backButton.setChangeListener(this);
+		horiz.add(_backButton);
+		
+		// init...
+		try
+		{
+			Initialize(ordinal);
+		}
+		catch(Exception ex)
+		{
+			MessageBox.Show(ex);
+		}
+	}
+
+	private void Initialize(int ordinal) throws Exception
+	{
+		_bookmark = Bookmark.GetByOrdinal(ordinal);
+		if(_bookmark == null)
+		{
+			// set...
+			_bookmark = new Bookmark();
+			_bookmark.setOrdinal(ordinal);
+		}
+		else
+		{
+			_nameTextBox.setText(_bookmark.getName());
+			_urlTextBox.setText(_bookmark.getUrl());
+		}
+	}
+
+	public void fieldChanged(Field field, int context)
+	{
+		try
+		{
+			if(field == _saveButton)
+				HandleSave();
+			else if(field == _deleteButton)
+				HandleDelete();
+			else if(field == _backButton)
+				HandleBack();
+		}
+		catch(Exception ex)
+		{
+			MessageBox.Show(ex);
+		}
+	}
+
+	private void HandleDelete()
+	{
+		MessageBox.Show("TBD.");
+	}
+
+	private void HandleBack()
+	{
+		ConfigureForm form = new ConfigureForm();
+		UiApplication.getUiApplication().pushScreen(form);
+	}
+
+	private void HandleSave() throws Exception
+	{
+		// check...
+		ErrorBucket errors = new ErrorBucket();
+		String name = _nameTextBox.getText();
+		if(name.length() == 0)
+			errors.AddError("Name is required.");
+		String url = _urlTextBox.getText();
+		if(url.length() == 0)
+			errors.AddError("URL is required.");
+		
+		// errors?
+		if(!(errors.getHasErrors()))
+		{
+			// save...
+			_bookmark.setName(name);
+			_bookmark.setUrl(url);
+			_bookmark.SaveChanges();
+			
+			// back...
+			HandleBack();
+		}
+		else
+			MessageBox.Show(errors.GetAllErrors());
+	}
+}

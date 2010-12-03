@@ -1,0 +1,47 @@
+package com.amxmobile.SixBookmarks;
+
+import net.rim.device.api.ui.Field;
+import net.rim.device.api.ui.FieldChangeListener;
+import net.rim.device.api.ui.component.ButtonField;
+import net.rim.device.api.ui.component.LabelField;
+import net.rim.device.api.ui.component.ListField;
+import net.rim.device.api.ui.container.HorizontalFieldManager;
+import net.rim.device.api.ui.container.MainScreen;
+
+public class ConfigureForm extends MainScreen implements FieldChangeListener
+{
+	private ListField _list;
+	private ButtonField _addButton;
+	private ButtonField _backButton;
+
+	public ConfigureForm()
+	{
+		super();
+		
+		// title...
+		setTitle(new LabelField("Configure"));
+		
+		// list...
+		_list = new ListField();
+		this.add(_list);
+		
+		// horizontal layout...
+		HorizontalFieldManager horiz = new HorizontalFieldManager();
+		this.add(horiz);
+		
+		// add...
+		_addButton = new ButtonField("Add", ButtonField.CONSUME_CLICK);
+		_addButton.setChangeListener(this);
+		horiz.add(_addButton);
+
+		// back...
+		_backButton = new ButtonField("Back", ButtonField.CONSUME_CLICK);
+		_backButton.setChangeListener(this);
+		horiz.add(_backButton);
+	}
+
+	public void fieldChanged(Field field, int context)
+	{
+		// TODO Auto-generated method stub
+	}
+}

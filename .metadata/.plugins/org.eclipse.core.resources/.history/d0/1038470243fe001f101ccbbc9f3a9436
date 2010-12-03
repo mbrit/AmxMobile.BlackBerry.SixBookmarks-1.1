@@ -1,0 +1,55 @@
+package com.amxmobile.SixBookmarks;
+
+import java.util.Vector;
+
+import net.rim.device.api.ui.Field;
+import net.rim.device.api.ui.FieldChangeListener;
+import net.rim.device.api.ui.component.ButtonField;
+import net.rim.device.api.ui.component.LabelField;
+import net.rim.device.api.ui.container.MainScreen;
+
+public class NavigatorForm extends MainScreen implements FieldChangeListener
+{
+	private Vector _buttons = new Vector();
+	private ButtonField _configureButton;
+	private ButtonField _logoffButton;
+	private ButtonField _aboutButton;
+	
+	public NavigatorForm()
+	{
+		super();
+		
+		// title...
+		setTitle(new LabelField("Six Bookmarks"));
+		
+		// buttons...
+		for(int index = 0; index < 6; index++)
+			AddButton(index);
+		
+		// configure button...
+		_configureButton = new ButtonField("Configure", ButtonField.CONSUME_CLICK);
+		_configureButton.setChangeListener(this);
+		this.add(_configureButton);
+		
+		// about button...
+		_aboutButton = new ButtonField("About", ButtonField.CONSUME_CLICK);
+		_aboutButton.setChangeListener(this);
+		this.add(_aboutButton);
+		
+		// about button...
+		_logoffButton = new ButtonField("Logoff", ButtonField.CONSUME_CLICK);
+		_logoffButton.setChangeListener(this);
+		this.add(_logoffButton);
+	}
+
+	private void AddButton(int index)
+	{
+		ButtonField button = new ButtonField("...");
+		_buttons.addElement(button);
+		this.add(button);
+	}
+
+	public void fieldChanged(Field field, int context)
+	{
+	}
+}

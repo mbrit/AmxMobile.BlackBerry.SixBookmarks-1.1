@@ -1,0 +1,24 @@
+package com.amxmobile.SixBookmarks.Database;
+
+import java.util.Vector;
+
+public class BookmarkCollection extends Vector
+{
+	public Bookmark GetByOrdinal(int ordinal) throws Exception
+	{
+		for(int index = 0; index < size(); index++)
+		{
+			Bookmark bookmark = (Bookmark)elementAt(index);
+			if(bookmark.getOrdinal() == ordinal)
+				return bookmark;
+		}
+		
+		// return...
+		return null;
+	}
+
+	public void SortByOrdinal()
+	{
+		// mmm... no sort in j2me...
+	}
+}
