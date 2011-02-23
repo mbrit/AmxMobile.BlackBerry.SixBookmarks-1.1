@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="12" version="2.0">
+<workbench progressCount="24" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="125" y="125">
 <fastViewData fastViewLocation="1024"/>
@@ -13,21 +13,21 @@
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1290624997674" focus="true" label="Workspace - Debug">
+<page aggregateWorkingSetId="Aggregate for window 1290624997674" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -52,37 +52,39 @@
 <part id="16"/>
 <part id="17"/>
 <part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SixBookmarksRuntime.java" partName="SixBookmarksRuntime.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/SixBookmarksRuntime.java" title="SixBookmarksRuntime.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/SixBookmarksRuntime.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SixBookmarksRuntime.java" partName="SixBookmarksRuntime.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/SixBookmarksRuntime.java" title="SixBookmarksRuntime.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/SixBookmarksRuntime.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/SixBookmarksRuntime.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1439" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="133" selectionOffset="1112" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NavigatorForm.java" partName="NavigatorForm.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/NavigatorForm.java" title="NavigatorForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/NavigatorForm.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NavigatorForm.java" partName="NavigatorForm.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/NavigatorForm.java" title="NavigatorForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/NavigatorForm.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/NavigatorForm.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="59" selectionOffset="930" selectionTopPixel="270"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1859" selectionTopPixel="600"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogonForm.java" partName="LogonForm.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java" title="LogonForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogonForm.java" partName="LogonForm.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java" title="LogonForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="496" selectionOffset="1312" selectionTopPixel="30"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2855" selectionTopPixel="720"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sync.java" partName="Sync.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Sync.java" title="Sync.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Sync.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sync.java" partName="Sync.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Sync.java" title="Sync.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Sync.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Sync.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3494" selectionTopPixel="1522"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1364" selectionTopPixel="315"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="foo" partName="foo" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/res/foo" title="foo" tooltip="com.amxmobile.SixBookmarks/res/foo" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/res/foo"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookmarksService.java" partName="BookmarksService.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java" title="BookmarksService.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookmarksService.java" partName="BookmarksService.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java" title="BookmarksService.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="714" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpHelper.java" partName="HttpHelper.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java" title="HttpHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2020" selectionTopPixel="720"/>
+<editorState selectionHorizontalPixel="0" selectionLength="684" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.ClassFileEditor" name="NodeList.class" partName="NodeList.class" title="NodeList.class" tooltip="org.w3c.dom.NodeList" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=com.amxmobile.SixBookmarks/D:\/Program Files\/Eclipse\/eclipse\/plugins\/net.rim.ejde.componentpack5.0.0_5.0.0.25\/components\/lib\/net_rim_api.jar&lt;org.w3c.dom(NodeList.class"/>
@@ -92,37 +94,37 @@
 <input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=com.amxmobile.SixBookmarks/D:\/Program Files\/Eclipse\/eclipse\/plugins\/net.rim.ejde.componentpack5.0.0_5.0.0.25\/components\/lib\/net_rim_api.jar&lt;org.w3c.dom(Element.class"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ODataServiceProxy.java" partName="ODataServiceProxy.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java" title="ODataServiceProxy.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ODataServiceProxy.java" partName="ODataServiceProxy.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java" title="ODataServiceProxy.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5746" selectionTopPixel="2062"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3336" selectionTopPixel="1350"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Entity.java" partName="Entity.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java" title="Entity.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Entity.java" partName="Entity.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java" title="Entity.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="964" selectionTopPixel="330"/>
+<editorState selectionHorizontalPixel="0" selectionLength="169" selectionOffset="5077" selectionTopPixel="2404"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityField.java" partName="EntityField.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityField.java" title="EntityField.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityField.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityField.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseHelper.java" partName="DatabaseHelper.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java" title="DatabaseHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseHelper.java" partName="DatabaseHelper.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java" title="DatabaseHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3797" selectionTopPixel="1785"/>
+<editorState selectionHorizontalPixel="0" selectionLength="962" selectionOffset="4515" selectionTopPixel="2479"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookmarkCollection.java" partName="BookmarkCollection.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java" title="BookmarkCollection.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookmarkCollection.java" partName="BookmarkCollection.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java" title="BookmarkCollection.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="470" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="357" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfigureForm.java" partName="ConfigureForm.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureForm.java" title="ConfigureForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureForm.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfigureForm.java" partName="ConfigureForm.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureForm.java" title="ConfigureForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureForm.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureForm.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="105" selectionOffset="1670" selectionTopPixel="394"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2296" selectionTopPixel="1155"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ObjectListField.class" partName="ObjectListField.class" title="ObjectListField.class" tooltip="net.rim.device.api.ui.component.ObjectListField" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=com.amxmobile.SixBookmarks/D:\/Program Files\/Eclipse\/eclipse\/plugins\/net.rim.ejde.componentpack5.0.0_5.0.0.25\/components\/lib\/net_rim_api.jar&lt;net.rim.device.api.ui.component(ObjectListField.class"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bookmark.java" partName="Bookmark.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Bookmark.java" title="Bookmark.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Bookmark.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bookmark.java" partName="Bookmark.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Bookmark.java" title="Bookmark.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Bookmark.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Bookmark.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2831" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2124" selectionTopPixel="1005"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageBox.java" partName="MessageBox.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.0/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/MessageBox.java" title="MessageBox.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/MessageBox.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/MessageBox.java"/>
@@ -132,49 +134,60 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureSingletonForm.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3742" selectionTopPixel="1672"/>
 </editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppMain.java" partName="AppMain.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/AppMain.java" title="AppMain.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/AppMain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/AppMain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="306" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="XmlHelper.java" partName="XmlHelper.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java" title="XmlHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="501" selectionOffset="3992" selectionTopPixel="1204"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ISqlStatementSource.java" partName="ISqlStatementSource.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/ISqlStatementSource.java" title="ISqlStatementSource.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/ISqlStatementSource.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/ISqlStatementSource.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="144" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlStatement.java" partName="SqlStatement.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlStatement.java" title="SqlStatement.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlStatement.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlStatement.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="926" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityChangeProcessor.java" partName="EntityChangeProcessor.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java" title="EntityChangeProcessor.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3715" selectionTopPixel="1834"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlFilter.java" partName="SqlFilter.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlFilter.java" title="SqlFilter.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlFilter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlFilter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2206" selectionTopPixel="1020"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlConstraint.java" partName="SqlConstraint.java" path="D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlConstraint.java" title="SqlConstraint.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlConstraint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlConstraint.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="214" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
-<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
-<viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-</viewState>
-</view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState>
-<isTrackingSelection value="false"/>
-</viewState>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
 <viewState/>
 </view>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
-<viewState/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
+<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="559"/>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="774"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -204,13 +217,39 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -221,6 +260,9 @@
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
@@ -231,9 +273,6 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
-<alwaysOnActionSet id="adt.actionSet.wizards"/>
-<alwaysOnActionSet id="adt.actionSet.refactorings"/>
-<alwaysOnActionSet id="adt.actionSet.avdManager"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -272,14 +311,15 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.search.ui.views.SearchView" style="0">
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.2994475"/>
 <view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
 <view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.2994475"/>
-<view id="org.eclipse.search.ui.views.SearchView" ratio="0.2994475"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -298,38 +338,42 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<info folder="true" part="stickyFolderRight" ratio="0.74969095" ratioLeft="1213" ratioRight="405" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22768125" ratioLeft="380" ratioRight="1289" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.59193546" ratioLeft="367" ratioRight="253" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.19352905" ratioLeft="323" ratioRight="1346" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74917126" ratioLeft="678" ratioRight="227" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1186cf9" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@689b5" ratio="0.74958813" ratioLeft="910" ratioRight="304" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.49896908" ratioLeft="242" ratioRight="243" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1186cf9">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="right" ratio="0.5" ratioLeft="339" ratioRight="339" relationship="4" relative="org.eclipse.ui.internal.ViewStack@689b5">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -380,43 +424,29 @@
 <view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@14e5053" orientation="256" selectedTabId="org.eclipse.search.ui.views.SearchView" style="0">
-<fastViews>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.3"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@14e5053" orientation="256" selectedTabId="org.eclipse.search.ui.views.SearchView" style="0">&#x0A;<fastViews>&#x0A;<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.3"/>
 <view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.debug.internal.ui.ConsoleFolderView" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2994475"/>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.debug.internal.ui.ConsoleFolderView" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2994475"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495441" ratioLeft="1233" ratioRight="412" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495441" ratioLeft="1233" ratioRight="412" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74917126" ratioLeft="678" ratioRight="227" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74917126" ratioLeft="678" ratioRight="227" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
@@ -425,33 +455,25 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14e5053" ratio="0.49969605" ratioLeft="822" ratioRight="823" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder appearance="2" expanded="0">
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14e5053" ratio="0.49969605" ratioLeft="822" ratioRight="823" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.21279761" ratioLeft="143" ratioRight="529" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495441" ratioLeft="1233" ratioRight="412" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info part="org.eclipse.ui.editorss" ratio="0.3736142" ratioLeft="337" ratioRight="565" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495441" ratioLeft="1233" ratioRight="412" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49969605" ratioLeft="822" ratioRight="823" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49969605" ratioLeft="822" ratioRight="823" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
@@ -464,164 +486,173 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureForm.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureSingletonForm.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/NavigatorForm.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Bookmark.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/LogonForm.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/ISqlStatementSource.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlStatement.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/Sync.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlConstraint.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java"/>
 </editors>
-<item historyLabel="LogonForm.java" index="2">
-<position info="not_deleted" x="1312" y="496"/>
+<item historyLabel="NavigatorForm.java" index="0">
+<position info="not_deleted" x="1895" y="0"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
+<item historyLabel="NavigatorForm.java" index="0">
+<position info="not_deleted" x="2345" y="0"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position info="not_deleted" x="876" y="0"/>
+<item historyLabel="XmlHelper.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
+<item historyLabel="ODataServiceProxy.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ConfigureForm.java" index="0">
-<position info="not_deleted" x="882" y="71"/>
+<item historyLabel="BookmarksService.java" index="3">
+<position info="not_deleted" x="0" y="684"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
+<item historyLabel="ODataServiceProxy.java" index="2">
+<position info="not_deleted" x="1168" y="112"/>
 </item>
-<item historyLabel="ConfigureForm.java" index="0">
-<position info="not_deleted" x="1670" y="105"/>
+<item historyLabel="Bookmark.java" index="4">
+<position info="not_deleted" x="0" y="1987"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position info="not_deleted" x="2792" y="0"/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position/>
-</item>
-<item historyLabel="Entity.java" index="3">
-<position info="not_deleted" x="5126" y="0"/>
-</item>
-<item historyLabel="Entity.java" index="3">
+<item historyLabel="Entity.java" index="5">
 <position info="not_deleted" x="964" y="0"/>
 </item>
-<item historyLabel="Entity.java" index="3">
-<position info="not_deleted" x="964" y="0"/>
+<item historyLabel="Entity.java" index="5">
+<position info="not_deleted" x="179" y="6"/>
 </item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="489" y="0"/>
-</item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="539" y="0"/>
-</item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="574" y="0"/>
-</item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="1578" y="0"/>
-</item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="1664" y="0"/>
-</item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="1709" y="0"/>
-</item>
-<item historyLabel="EntityChangeProcessor.java" index="4">
-<position info="not_deleted" x="1751" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="2724" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="2756" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="2799" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3087" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3136" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3280" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3360" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3408" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3455" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3514" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3548" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3580" y="0"/>
-</item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3455" y="0"/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
+<item historyLabel="DatabaseHelper.java" index="6">
 <position/>
 </item>
-<item historyLabel="DatabaseHelper.java" index="5">
-<position info="not_deleted" x="3797" y="0"/>
-</item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
+<item historyLabel="DatabaseHelper.java" index="6">
 <position/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
+<item historyLabel="LogonForm.java" index="7">
+<position info="not_deleted" x="2571" y="709"/>
+</item>
+<item historyLabel="DatabaseHelper.java" index="6">
+<position info="not_deleted" x="0" y="5482"/>
+</item>
+<item historyLabel="ISqlStatementSource.java" index="8">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item historyLabel="SqlStatement.java" index="9">
+<position info="not_deleted" x="0" y="926"/>
+</item>
+<item historyLabel="DatabaseHelper.java" index="6">
+<position info="not_deleted" x="0" y="5482"/>
+</item>
+<item historyLabel="Sync.java" index="10">
 <position/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position info="not_deleted" x="3622" y="0"/>
+<item historyLabel="Sync.java" index="10">
+<position info="not_deleted" x="0" y="3929"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position info="not_deleted" x="3517" y="0"/>
+<item historyLabel="LogonForm.java" index="7">
+<position info="not_deleted" x="2571" y="709"/>
 </item>
-<item historyLabel="ConfigureSingletonForm.java" index="1">
-<position info="not_deleted" x="3742" y="0"/>
+<item historyLabel="DatabaseHelper.java" index="6">
+<position info="not_deleted" x="2536" y="0"/>
 </item>
-<item historyLabel="Sync.java" index="6">
-<position info="not_deleted" x="414" y="6"/>
+<item historyLabel="BookmarksService.java" index="3">
+<position info="not_deleted" x="0" y="684"/>
 </item>
-<item historyLabel="Sync.java" index="6">
-<position info="not_deleted" x="679" y="0"/>
+<item historyLabel="SqlStatement.java" index="9">
+<position info="not_deleted" x="0" y="926"/>
 </item>
-<item historyLabel="Sync.java" index="6">
-<position info="not_deleted" x="2062" y="11"/>
+<item historyLabel="Sync.java" index="10">
+<position info="not_deleted" x="0" y="3929"/>
 </item>
-<item historyLabel="ODataServiceProxy.java" index="7">
-<position info="not_deleted" x="2974" y="0"/>
+<item historyLabel="DatabaseHelper.java" index="6">
+<position info="not_deleted" x="2014" y="0"/>
 </item>
-<item active="true" historyLabel="ODataServiceProxy.java" index="7">
-<position info="not_deleted" x="5761" y="10"/>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position/>
+</item>
+<item historyLabel="Sync.java" index="10">
+<position/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position/>
+</item>
+<item historyLabel="DatabaseHelper.java" index="6">
+<position info="not_deleted" x="2014" y="0"/>
+</item>
+<item historyLabel="Sync.java" index="10">
+<position/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="Sync.java" index="10">
+<position info="not_deleted" x="569" y="0"/>
+</item>
+<item historyLabel="Entity.java" index="5">
+<position info="not_deleted" x="5077" y="169"/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position info="not_deleted" x="3932" y="0"/>
+</item>
+<item historyLabel="Sync.java" index="10">
+<position info="not_deleted" x="637" y="0"/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="11">
+<position info="not_deleted" x="3932" y="0"/>
+</item>
+<item historyLabel="SqlFilter.java" index="12">
+<position info="not_deleted" x="2576" y="219"/>
+</item>
+<item historyLabel="DatabaseHelper.java" index="6">
+<position info="not_deleted" x="4515" y="962"/>
+</item>
+<item historyLabel="NavigatorForm.java" index="0">
+<position/>
+</item>
+<item historyLabel="Bookmark.java" index="4">
+<position info="not_deleted" x="2124" y="0"/>
+</item>
+<item historyLabel="NavigatorForm.java" index="0">
+<position info="not_deleted" x="1502" y="0"/>
+</item>
+<item historyLabel="NavigatorForm.java" index="0">
+<position info="not_deleted" x="387" y="10"/>
+</item>
+<item historyLabel="BookmarkCollection.java" index="13">
+<position info="not_deleted" x="357" y="0"/>
+</item>
+<item historyLabel="SqlFilter.java" index="12">
+<position info="not_deleted" x="2206" y="0"/>
+</item>
+<item historyLabel="NavigatorForm.java" index="0">
+<position info="not_deleted" x="1529" y="0"/>
+</item>
+<item historyLabel="SqlFilter.java" index="12">
+<position info="not_deleted" x="2206" y="0"/>
+</item>
+<item historyLabel="SqlConstraint.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EntityChangeProcessor.java" index="15">
+<position info="not_deleted" x="3932" y="0"/>
+</item>
+<item active="true" historyLabel="ODataServiceProxy.java" index="16">
+<position info="not_deleted" x="3100" y="566"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -629,9 +660,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@14e5053"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -640,11 +668,37 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 <trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlConstraint.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlConstraint.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlConstraint.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlFilter.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlFilter.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlFilter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityChangeProcessor.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityChangeProcessor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlStatement.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlStatement.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/SqlStatement.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ISqlStatementSource.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/ISqlStatementSource.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/ISqlStatementSource.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="XmlHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsersService.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/UsersService.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/UsersService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppMain.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/AppMain.java">
+<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/AppMain.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfigureSingletonForm.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureSingletonForm.java">
 <persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureSingletonForm.java"/>
 </file>
@@ -662,33 +716,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookmarkCollection.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java">
 <persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/BookmarkCollection.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityField.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityField.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/EntityField.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Entity.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Entities/Entity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ODataServiceProxy.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Element.class" tooltip="org.w3c.dom.Element">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=com.amxmobile.SixBookmarks/D:\/Program Files\/Eclipse\/eclipse\/plugins\/net.rim.ejde.componentpack5.0.0_5.0.0.25\/components\/lib\/net_rim_api.jar&lt;org.w3c.dom(Element.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="NodeList.class" tooltip="org.w3c.dom.NodeList">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=com.amxmobile.SixBookmarks/D:\/Program Files\/Eclipse\/eclipse\/plugins\/net.rim.ejde.componentpack5.0.0_5.0.0.25\/components\/lib\/net_rim_api.jar&lt;org.w3c.dom(NodeList.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="XmlHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlHelper.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HttpHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/HttpHelper.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookmarksService.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/BookmarksService.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseHelper.java" tooltip="com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java">
-<persistable path="/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Database/DatabaseHelper.java"/>
 </file>
 </mruList>
 </workbench>

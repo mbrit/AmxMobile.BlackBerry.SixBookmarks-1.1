@@ -1,17 +1,11 @@
 package com.amxmobile.SixBookmarks;
 
-import net.rim.device.api.ui.Field;
-import net.rim.device.api.ui.FieldChangeListener;
-import net.rim.device.api.ui.UiApplication;
-import net.rim.device.api.ui.component.ButtonField;
-import net.rim.device.api.ui.component.LabelField;
-import net.rim.device.api.ui.component.ObjectListField;
-import net.rim.device.api.ui.container.HorizontalFieldManager;
-import net.rim.device.api.ui.container.MainScreen;
+import net.rim.device.api.ui.*;
+import net.rim.device.api.ui.component.*;
+import net.rim.device.api.ui.container.*;
 
-import com.amxmobile.SixBookmarks.Database.Bookmark;
-import com.amxmobile.SixBookmarks.Database.BookmarkCollection;
-import com.amxmobile.SixBookmarks.Runtime.MessageBox;
+import com.amxmobile.SixBookmarks.Database.*;
+import com.amxmobile.SixBookmarks.Runtime.*;
 
 public class ConfigureForm extends MainScreen implements FieldChangeListener
 {
@@ -88,7 +82,7 @@ public class ConfigureForm extends MainScreen implements FieldChangeListener
 		try
 		{
 			if(field == _backButton)
-				UiApplication.getUiApplication().pushScreen(new ConfigureForm());
+				UiApplication.getUiApplication().pushScreen(new NavigatorForm());
 			else if(field == _addButton)
 				HandleAdd();
 		}

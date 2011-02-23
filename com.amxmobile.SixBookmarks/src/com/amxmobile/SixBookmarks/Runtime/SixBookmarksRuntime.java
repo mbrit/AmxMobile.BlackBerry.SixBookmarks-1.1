@@ -1,12 +1,9 @@
 package com.amxmobile.SixBookmarks.Runtime;
 
-import net.rim.blackberry.api.browser.Browser;
-import net.rim.blackberry.api.browser.BrowserSession;
+import net.rim.blackberry.api.browser.*;
 
-import com.amxmobile.SixBookmarks.Database.Bookmark;
-import com.amxmobile.SixBookmarks.Database.BookmarkCollection;
-import com.amxmobile.SixBookmarks.Entities.EntityField;
-import com.amxmobile.SixBookmarks.Entities.EntityType;
+import com.amxmobile.SixBookmarks.Database.*;
+import com.amxmobile.SixBookmarks.Entities.*;
 
 public class SixBookmarksRuntime 
 {

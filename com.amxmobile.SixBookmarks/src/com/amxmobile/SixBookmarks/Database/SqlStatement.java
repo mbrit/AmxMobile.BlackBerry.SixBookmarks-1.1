@@ -1,6 +1,6 @@
 package com.amxmobile.SixBookmarks.Database;
 
-import java.util.Vector;
+import java.util.*;
 
 public class SqlStatement implements ISqlStatementSource 
 {

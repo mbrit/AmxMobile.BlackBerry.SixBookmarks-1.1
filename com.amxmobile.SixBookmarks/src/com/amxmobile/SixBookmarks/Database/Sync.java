@@ -1,11 +1,9 @@
 package com.amxmobile.SixBookmarks.Database;
 
-import java.util.Vector;
+import java.util.*;
 
-import com.amxmobile.SixBookmarks.Entities.Entity;
-import com.amxmobile.SixBookmarks.Entities.EntityField;
-import com.amxmobile.SixBookmarks.Entities.EntityType;
-import com.amxmobile.SixBookmarks.Services.BookmarksService;
+import com.amxmobile.SixBookmarks.Entities.*;
+import com.amxmobile.SixBookmarks.Services.*;
 
 public class Sync 
 {
@@ -21,7 +19,7 @@ public class Sync
 		_database.EnsureTableExists(_entityType);
 		
 		// push changes, then get the latest...
-		PushChanges();
+		//PushChanges();
 		GetLatest();
 	}
 
@@ -38,7 +36,7 @@ public class Sync
 	private void GetLatest() throws Exception
 	{
 		// clear the bookmarks table...
-		getDatabase().ExecuteNonQuery(new SqlStatement("delete from bookmarks"), true);
+		getDatabase().ExecuteNonQuery(new SqlStatement("delete from bookmarks"));
 		
 		// get the bookmarks from the server...
 		BookmarksService service = new BookmarksService();

@@ -1,9 +1,8 @@
 package com.amxmobile.SixBookmarks.Database;
 
-import java.util.Hashtable;
+import java.util.*;
 
-import com.amxmobile.SixBookmarks.Database.SqlFilter;
-import com.amxmobile.SixBookmarks.Entities.Entity;
+import com.amxmobile.SixBookmarks.Entities.*;
 
 public class Bookmark extends Entity 
 {

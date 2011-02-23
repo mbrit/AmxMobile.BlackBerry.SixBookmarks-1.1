@@ -1,11 +1,10 @@
 package com.amxmobile.SixBookmarks.Services;
 
-import org.w3c.dom.Document;
+import org.w3c.dom.*;
 
-import com.amxmobile.SixBookmarks.Database.Bookmark;
-import com.amxmobile.SixBookmarks.Database.BookmarkCollection;
-import com.amxmobile.SixBookmarks.Entities.EntityType;
-import com.amxmobile.SixBookmarks.Runtime.HttpHelper;
+import com.amxmobile.SixBookmarks.Database.*;
+import com.amxmobile.SixBookmarks.Entities.*;
+import com.amxmobile.SixBookmarks.Runtime.*;
 
 public class BookmarksService extends ODataServiceProxy 
 {

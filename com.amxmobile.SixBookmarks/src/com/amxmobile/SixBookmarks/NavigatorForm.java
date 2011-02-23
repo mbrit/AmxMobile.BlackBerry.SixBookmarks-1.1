@@ -1,18 +1,13 @@
 package com.amxmobile.SixBookmarks;
 
-import java.util.Vector;
+import java.util.*;
 
-import net.rim.device.api.ui.Field;
-import net.rim.device.api.ui.FieldChangeListener;
-import net.rim.device.api.ui.UiApplication;
-import net.rim.device.api.ui.component.ButtonField;
-import net.rim.device.api.ui.component.LabelField;
-import net.rim.device.api.ui.container.MainScreen;
+import net.rim.device.api.ui.*;
+import net.rim.device.api.ui.component.*;
+import net.rim.device.api.ui.container.*;
 
-import com.amxmobile.SixBookmarks.Database.Bookmark;
-import com.amxmobile.SixBookmarks.Database.BookmarkCollection;
-import com.amxmobile.SixBookmarks.Runtime.MessageBox;
-import com.amxmobile.SixBookmarks.Runtime.SixBookmarksRuntime;
+import com.amxmobile.SixBookmarks.Database.*;
+import com.amxmobile.SixBookmarks.Runtime.*;
 
 public class NavigatorForm extends MainScreen implements FieldChangeListener
 {

@@ -13,7 +13,7 @@
 			BlackBerry Developer
 		</vendor>
 		<copyright >
-			Copyright (c) 2010 BlackBerry Developer
+			Copyright (c) 2011 BlackBerry Developer
 		</copyright>
 		<fileset Java="1.49" _blackberryVersion="[5.0.0)">
 			<directory >

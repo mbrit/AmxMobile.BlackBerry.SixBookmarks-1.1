@@ -1,8 +1,8 @@
 package com.amxmobile.SixBookmarks.Database;
 
-import javax.microedition.global.Formatter;
+import javax.microedition.global.*;
 
-import com.amxmobile.SixBookmarks.Entities.EntityField;
+import com.amxmobile.SixBookmarks.Entities.*;
 
 public class SqlFieldConstraint extends SqlConstraint
 {

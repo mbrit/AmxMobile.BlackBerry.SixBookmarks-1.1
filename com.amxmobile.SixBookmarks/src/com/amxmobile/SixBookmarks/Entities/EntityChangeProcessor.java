@@ -1,7 +1,6 @@
 package com.amxmobile.SixBookmarks.Entities;
 
-import com.amxmobile.SixBookmarks.Database.DatabaseHelper;
-import com.amxmobile.SixBookmarks.Database.SqlStatement;
+import com.amxmobile.SixBookmarks.Database.*;
 
 public class EntityChangeProcessor 
 {
@@ -38,7 +37,7 @@ public class EntityChangeProcessor
 		// run the statement...
 		DatabaseHelper db = new DatabaseHelper();
 		db.EnsureTableExists(getEntityType());
-		db.ExecuteNonQuery(sql, true);
+		db.ExecuteNonQuery(sql);
 	}
 	
 	private SqlStatement GetDeleteStatement(Entity entity) throws Exception
@@ -70,7 +69,7 @@ public class EntityChangeProcessor
 		// run the statement...
 		DatabaseHelper db = new DatabaseHelper();
 		db.EnsureTableExists(getEntityType());
-		db.ExecuteNonQuery(sql, true);
+		db.ExecuteNonQuery(sql);
 	}
 	
 	private SqlStatement GetUpdateStatement(Entity entity) throws Exception
@@ -185,6 +184,6 @@ public class EntityChangeProcessor
 		// run the statement...
 		DatabaseHelper db = new DatabaseHelper();
 		db.EnsureTableExists(getEntityType());
-		db.ExecuteNonQuery(sql, true);
+		db.ExecuteNonQuery(sql);
 	}
 }

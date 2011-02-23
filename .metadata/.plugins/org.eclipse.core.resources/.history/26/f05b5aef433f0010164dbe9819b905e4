@@ -1,0 +1,166 @@
+package com.amxmobile.SixBookmarks;
+
+import java.util.*;
+
+import net.rim.device.api.ui.*;
+import net.rim.device.api.ui.component.*;
+import net.rim.device.api.ui.container.*;
+
+import com.amxmobile.SixBookmarks.Database.*;
+import com.amxmobile.SixBookmarks.Runtime.*;
+
+public class NavigatorForm extends MainScreen implements FieldChangeListener
+{
+	private BookmarkCollection _bookmarks = null;
+	private Vector _buttons = new Vector();
+	private ButtonField _configureButton;
+	private ButtonField _logoffButton;
+	private ButtonField _aboutButton;
+	
+	public NavigatorForm()
+	{
+		super();
+		
+		// title...
+		setTitle(new LabelField("Six Bookmarks"));
+		
+		// buttons...
+		for(int index = 0; index < 6; index++)
+			AddButton(index);
+		
+		// configure button...
+		_configureButton = new ButtonField("Configure", ButtonField.CONSUME_CLICK);
+		_configureButton.setChangeListener(this);
+		this.add(_configureButton);
+		
+		// about button...
+		_aboutButton = new ButtonField("About", ButtonField.CONSUME_CLICK);
+		_aboutButton.setChangeListener(this);
+		this.add(_aboutButton);
+		
+		// about button...
+		_logoffButton = new ButtonField("Logoff", ButtonField.CONSUME_CLICK);
+		_logoffButton.setChangeListener(this);
+		this.add(_logoffButton);
+		
+		// init...
+		try
+		{
+			Initialize();
+		}
+		catch(Exception ex)
+		{
+			MessageBox.Show(ex);
+		}
+	}
+
+	private void Initialize() throws Exception
+	{
+		/*
+		_bookmarks = Bookmark.GetBookmarksForDisplay();
+		for(int index = 0; index < _bookmarks.size(); index++)
+			Initialize((Bookmark)_bookmarks.elementAt(index));
+			*/
+		
+		// show some fake bookmarks...
+		_bookmarks = new BookmarkCollection();
+
+		// one...
+		Bookmark bookmark = new Bookmark();
+		bookmark.setName(".NET 247");
+		bookmark.setUrl("http://www.dotnet247.com/");
+		bookmark.setOrdinal(0);
+		_bookmarks.addElement(bookmark);
+
+		// two...
+		bookmark = new Bookmark();
+		bookmark.setName("Apress");
+		bookmark.setUrl("http://www.apress.com/");
+		bookmark.setOrdinal(1);
+		_bookmarks.addElement(bookmark);
+		
+		// walk the bookmarks and show them.  (we'll keep this code even though
+		// we'll replace the code that obtain the list of bookmarks...)
+		for(int index = 0; index < _bookmarks.size(); index++)
+			Initialize((Bookmark)_bookmarks.elementAt(index));
+	}
+
+	private void Initialize(Bookmark bookmark) throws Exception
+	{
+		ButtonField button = GetBookmarkButton(bookmark.getOrdinal());
+		button.setLabel(bookmark.getName());
+	}
+
+	private ButtonField GetBookmarkButton(int ordinal)
+	{
+		return (ButtonField)_buttons.elementAt(ordinal);
+	}
+
+	private void AddButton(int index)
+	{
+		ButtonField button = new ButtonField("...", ButtonField.CONSUME_CLICK);
+		button.setChangeListener(this);
+		_buttons.addElement(button);
+		this.add(button);
+	}
+
+	public void fieldChanged(Field field, int context)
+	{
+		try
+		{
+			if(field == _configureButton)
+				HandleConfigure();
+			else if(field == _aboutButton)
+				HandleAbout();
+			else if(field == _logoffButton)
+				HandleLogoff();
+			else
+				HandleNavigationClick(field);
+		}
+		catch(Exception ex)
+		{
+			MessageBox.Show(ex);
+		}	
+	}
+
+	private void HandleNavigationClick(Field field) throws Exception
+	{
+		int index = GetButtonIndex((ButtonField)field);
+		
+		// show...
+		Bookmark bookmark = _bookmarks.GetByOrdinal(index);
+		if(bookmark != null)
+			SixBookmarksRuntime.OpenUrl(bookmark.getUrl());
+		else
+			HandleConfigure();
+	}
+	
+	private int GetButtonIndex(ButtonField field) throws Exception
+	{
+		for(int index = 0; index < _buttons.size(); index++)
+		{
+			ButtonField check = (ButtonField)_buttons.elementAt(index);
+			if(check == field)
+				return index;
+		}
+		
+		// nope...
+		throw new Exception("The button was not found.");
+	}
+
+	private void HandleLogoff()
+	{
+		UiApplication.getUiApplication().pushScreen(new LogonForm());
+	}
+
+	private void HandleAbout()
+	{
+		SixBookmarksRuntime.OpenUrl("http://www.multimobiledevelopment.com/");
+	}
+
+	private void HandleConfigure()
+	{
+		ConfigureForm form = new ConfigureForm();
+		UiApplication.getUiApplication().pushScreen(form);
+	}
+}

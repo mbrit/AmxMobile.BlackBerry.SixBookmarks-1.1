@@ -1,10 +1,13 @@
 package com.amxmobile.SixBookmarks.Services;
 
+import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
 
 import javax.microedition.global.Formatter;
+import javax.microedition.io.Connector;
+import javax.microedition.io.HttpConnection;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -107,6 +110,55 @@ public class ODataServiceProxy extends ServiceProxy
 		// make sure we're authenticated...
 		EnsureApiAuthenticated();
 
+		// send up a post to the shim address...
+		String shimUrl = "http://192.168.1.106/amxservices/services/bookmarksbbshim.aspx";
+    	HttpConnection conn = null;
+    	InputStream stream = null;
+        try 
+        {
+            conn = (HttpConnection)Connector.open(shimUrl);
+            conn.setRequestMethod("MERGE");
+
+            // headers...
+            Hashtable headers = GetDownloadSettings().getExtraHeaders();
+            Enumeration keys = headers.keys();
+            while(keys.hasMoreElements())
+            {
+            	String key = (String)keys.nextElement();
+            	conn.setRequestProperty(key, (String)headers.get(key));
+            }
+            
+            // send up the XML...
+            
+            // open...
+            stream = conn.openInputStream();
+
+            // walk...
+            final int bufLen = 10240;
+            byte[] buf = new byte[bufLen];
+            StringBuffer raw = new StringBuffer();
+            while(true)
+            {
+            	int len = stream.read(buf, 0, bufLen);
+            	if(len == -1)
+            		break;
+            	
+            	// append...
+                raw.append(new String(buf, 0, len));
+            }
+
+            // return...
+            //String html = raw.toString();
+            
+        }
+        finally
+        {
+        	if(stream != null)
+        		stream.close();
+        	if(conn != null)
+        		conn.close();
+        } 
+		
 //		// show...
 //		HttpRequestBase op = null;
 //		if(opType == ODATAOPERATION_UPDATE)

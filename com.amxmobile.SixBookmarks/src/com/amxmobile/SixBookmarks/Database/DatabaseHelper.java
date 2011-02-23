@@ -1,18 +1,9 @@
 package com.amxmobile.SixBookmarks.Database;
 
-import java.util.Vector;
-
-import javax.microedition.global.Formatter;
-
-import net.rim.device.api.database.Cursor;
-import net.rim.device.api.database.Database;
-import net.rim.device.api.database.DatabaseFactory;
-import net.rim.device.api.database.Row;
-import net.rim.device.api.database.Statement;
-
-import com.amxmobile.SixBookmarks.Entities.Entity;
-import com.amxmobile.SixBookmarks.Entities.EntityField;
-import com.amxmobile.SixBookmarks.Entities.EntityType;
+import java.util.*;
+import javax.microedition.global.*;
+import net.rim.device.api.database.*;
+import com.amxmobile.SixBookmarks.Entities.*;
 
 public class DatabaseHelper
 {
@@ -84,7 +75,7 @@ public class DatabaseHelper
 		
 		// create...
 		SqlStatement sql = GetCreateScript(et);
-		ExecuteNonQuery(sql, true);
+		ExecuteNonQuery(sql);
 		
 		// add...
 		_loadMap.addElement(name);
@@ -98,7 +89,7 @@ public class DatabaseHelper
 			return DatabaseFactory.create(DatabaseName);
 	}
 	
-	public void ExecuteNonQuery(ISqlStatementSource sql, boolean writable) throws Exception
+	public void ExecuteNonQuery(ISqlStatementSource sql) throws Exception
 	{
 		// open...
 		Database db = GetDatabase();

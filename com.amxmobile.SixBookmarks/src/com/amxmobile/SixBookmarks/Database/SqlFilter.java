@@ -1,10 +1,7 @@
 package com.amxmobile.SixBookmarks.Database;
 
-import java.util.Vector;
-
-import com.amxmobile.SixBookmarks.Entities.Entity;
-import com.amxmobile.SixBookmarks.Entities.EntityField;
-import com.amxmobile.SixBookmarks.Entities.EntityType;
+import java.util.*;
+import com.amxmobile.SixBookmarks.Entities.*;
 
 public class SqlFilter implements ISqlStatementSource
 {
