@@ -1,11 +1,20 @@
 package com.amxmobile.SixBookmarks;
 
-import com.amxmobile.SixBookmarks.Database.*;
-import com.amxmobile.SixBookmarks.Runtime.*;
+import com.amxmobile.SixBookmarks.Database.Bookmark;
+import com.amxmobile.SixBookmarks.Database.Sync;
+import com.amxmobile.SixBookmarks.Runtime.ErrorBucket;
+import com.amxmobile.SixBookmarks.Runtime.MessageBox;
 
-import net.rim.device.api.ui.*;
-import net.rim.device.api.ui.component.*;
-import net.rim.device.api.ui.container.*;
+import net.rim.device.api.ui.Field;
+import net.rim.device.api.ui.FieldChangeListener;
+import net.rim.device.api.ui.UiApplication;
+import net.rim.device.api.ui.component.ButtonField;
+import net.rim.device.api.ui.component.CheckboxField;
+import net.rim.device.api.ui.component.EditField;
+import net.rim.device.api.ui.component.LabelField;
+import net.rim.device.api.ui.component.PasswordEditField;
+import net.rim.device.api.ui.container.HorizontalFieldManager;
+import net.rim.device.api.ui.container.MainScreen;
 
 public class ConfigureSingletonForm extends MainScreen implements FieldChangeListener
 {
@@ -96,14 +105,9 @@ public class ConfigureSingletonForm extends MainScreen implements FieldChangeLis
 		}
 	}
 
-	private void HandleDelete() throws Exception
+	private void HandleDelete()
 	{
-		// flag it...
-		_bookmark.setLocalDeleted(true);
-		_bookmark.SaveChanges();
-		
-		// sync and quit...
-		HandleSync();
+		MessageBox.Show("TBD.");
 	}
 
 	private void HandleBack()
@@ -132,7 +136,6 @@ public class ConfigureSingletonForm extends MainScreen implements FieldChangeLis
 			
 			// flag that we've changed it...
 			_bookmark.setLocalModified(true);
-			_bookmark.setLocalDeleted(false);
 			
 			// save...
 			_bookmark.SaveChanges();
@@ -146,8 +149,8 @@ public class ConfigureSingletonForm extends MainScreen implements FieldChangeLis
 
 	private void HandleSync() throws Exception
 	{
-		/*Sync sync = new Sync();
-		sync.DoSync();*/
+		Sync sync = new Sync();
+		sync.DoSync();
 		
 		// go...
 		HandleBack();

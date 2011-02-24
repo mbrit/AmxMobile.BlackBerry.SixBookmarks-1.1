@@ -19,7 +19,7 @@ public class Sync
 		_database.EnsureTableExists(_entityType);
 		
 		// push changes, then get the latest...
-		PushChanges();
+		//PushChanges();
 		GetLatest();
 	}
 

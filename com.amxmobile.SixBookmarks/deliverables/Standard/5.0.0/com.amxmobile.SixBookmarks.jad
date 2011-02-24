@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 RIM-COD-Module-Name: com$2eamxmobile$2eSixBookmarks
 RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_xml_org,net_rim_database,net_rim_bbapi_browser,net_rim_xml
-MIDlet-Jar-Size: 68630
+MIDlet-Jar-Size: 69399
 MIDlet-1: ,,
-RIM-COD-Creation-Time: 1298493766
+RIM-COD-Creation-Time: 1298546757
 MIDlet-Jar-URL: com.amxmobile.SixBookmarks.jar
 RIM-COD-URL: com$2eamxmobile$2eSixBookmarks.cod
-RIM-COD-SHA1: 74 01 6e 4e 23 10 17 cf f7 b3 70 d4 92 30 67 87 ce 54 d8 1e
-RIM-COD-Size: 22892
+RIM-COD-SHA1: 48 cf 0f f4 3a ae 6f c3 77 de 1d 0b 5e fb ca 7e a8 d8 9b aa
+RIM-COD-Size: 24344
 MicroEdition-Configuration: CLDC-1.1
 MIDlet-Version: 1.0.0
 MIDlet-Name: com.amxmobile.SixBookmarks

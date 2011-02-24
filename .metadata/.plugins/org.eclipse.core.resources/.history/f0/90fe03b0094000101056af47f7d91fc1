@@ -217,14 +217,11 @@ public class ODataServiceProxy extends ServiceProxy
 
 	public void PushUpdate(Entity entity, int serverId) throws Exception 
 	{
-		// did I actually write my own XML serializer before?
-		// http://ahmadferdous.blogspot.com/2009/03/how-to-import-kxml-jar-file-to-your.html
-		
-		// update...
-		XmlSerializer xml = Xml.newSerializer();
-		StringWriter writer = new StringWriter();
-		xml.setOutput(writer);
-		
+//		// update...
+//		XmlSerializer xml = Xml.newSerializer();
+//		StringWriter writer = new StringWriter();
+//		xml.setOutput(writer);
+//		
 //		// start...
 //		xml.startDocument("UTF-8", true);
 //		xml.setPrefix("", AtomNamespace);

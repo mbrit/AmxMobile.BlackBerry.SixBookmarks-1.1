@@ -132,7 +132,6 @@ public class ConfigureSingletonForm extends MainScreen implements FieldChangeLis
 			
 			// flag that we've changed it...
 			_bookmark.setLocalModified(true);
-			_bookmark.setLocalDeleted(false);
 			
 			// save...
 			_bookmark.SaveChanges();
