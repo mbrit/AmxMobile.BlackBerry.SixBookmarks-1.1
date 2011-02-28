@@ -109,7 +109,7 @@ public class ODataServiceProxy extends ServiceProxy
 			throw new Exception(Formatter.formatMessage("Cannot handle '{0}'.", new String[] { asString }));
 	}
 	
-	private String ExecuteODataOperation(int opType, String url, String xml) throws Exception
+	private void ExecuteODataOperation(int opType, String url, String xml) throws Exception
 	{
 		// make sure we're authenticated...
 		EnsureApiAuthenticated();
@@ -145,8 +145,7 @@ public class ODataServiceProxy extends ServiceProxy
             }
             
             // send up the XML...
-            if(xml != null && xml.length() > 0)
-            	SendXml(conn, xml);
+            SendXml(conn, xml);
             
             // open...
             stream = conn.openInputStream();
@@ -166,8 +165,8 @@ public class ODataServiceProxy extends ServiceProxy
             }
 
             // return...
-            String html = raw.toString();
-            return html;
+            //String html = raw.toString();
+            
         }
         finally
         {
@@ -176,6 +175,48 @@ public class ODataServiceProxy extends ServiceProxy
         	if(conn != null)
         		conn.close();
         } 
+		
+//		// show...
+//		HttpRequestBase op = null;
+//		if(opType == ODATAOPERATION_UPDATE)
+//			op = new HttpMerge(url);
+//		else if(opType == ODATAOPERATION_INSERT)
+//			op = new HttpPost(url);
+//		else if(opType == ODATAOPERATION_DELETE)
+//			op = new HttpDelete(url);
+//		else
+//			throw new Exception(Formatter.formatMessage("Cannot handle '{0}'.", new String[] { new Integer(opType).toString() }));
+//		
+//		// add our headers...
+//		Hashtable extraHeaders = GetDownloadSettings().getExtraHeaders();
+//		Enumeration keys = extraHeaders.keys();
+//		while(keys.hasMoreElements())
+//		{
+//			String name = (String)keys.nextElement();
+//			op.addHeader(name, extraHeaders.get(name));
+//		}
+//		
+//		// create an entity...
+//		if(xml != null)
+//			((HttpEntityEnclosingRequestBase)op).setEntity(new ODataEntity(xml));
+//		
+//		// request...
+//		HttpClient client = new DefaultHttpClient();
+//		HttpResponse response = client.execute(op);
+//
+//		// what happened...  200 is OK, but 204 also is (which means no content)...
+//		int code = response.getStatusLine().getStatusCode(); 
+//		if(code != 200 && code != 204)
+//		{
+//			// get...
+//			String error = HttpHelper.GetHttpEntityContent(response.getEntity());
+//			
+//			// throw...
+//			throw new Exception(String.format("Download of '%s' via operation '%s' returned HTTP '%d' (%s).\nResponse: %s\nXML: %s", 
+//					url, opType, code, response.getStatusLine().getReasonPhrase(), error, xml));
+//		}
+		
+		throw new Exception("Not implemented.");
 	}
 		
 	private void SendXml(HttpConnection conn, String xml) throws IOException

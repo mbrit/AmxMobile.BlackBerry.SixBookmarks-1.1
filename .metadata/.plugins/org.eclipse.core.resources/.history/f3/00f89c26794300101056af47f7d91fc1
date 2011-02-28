@@ -145,8 +145,7 @@ public class ODataServiceProxy extends ServiceProxy
             }
             
             // send up the XML...
-            if(xml != null && xml.length() > 0)
-            	SendXml(conn, xml);
+            SendXml(conn, xml);
             
             // open...
             stream = conn.openInputStream();

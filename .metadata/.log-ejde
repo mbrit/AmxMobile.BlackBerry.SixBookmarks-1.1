@@ -8460,3 +8460,507 @@
 11:31:57,466 TRACE [B] Entering ResourcesBuilder build();kind=9
 11:31:57,467 TRACE [B] Leaving ResourcesBuilder build()
 11:31:57,468 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+11:36:57,474 TRACE [A] Entering PreprocessingBuilder build();kind=9
+11:36:57,476 TRACE [A] Leaving PreprocessingBuilder build()
+11:36:57,476 TRACE [B] Entering ResourcesBuilder build();kind=9
+11:36:57,477 TRACE [B] Leaving ResourcesBuilder build()
+19:43:23,113 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:43:23,114 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlSerializer.java
+19:43:23,116 TRACE [A] Leaving PreprocessingBuilder build()
+19:43:23,116 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:43:23,117 TRACE [B] Leaving ResourcesBuilder build()
+19:43:23,118 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+19:43:32,676 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:43:32,678 TRACE [A] Leaving PreprocessingBuilder build()
+19:43:32,678 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:43:32,679 TRACE [B] Leaving ResourcesBuilder build()
+19:44:48,749 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+19:44:48,892 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:44:48,892 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Runtime/XmlSerializer.java
+19:44:48,893 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+19:44:48,894 TRACE [A] Leaving PreprocessingBuilder build()
+19:44:48,894 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:44:48,895 TRACE [B] Leaving ResourcesBuilder build()
+19:44:48,895 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+19:44:49,980 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:44:49,982 TRACE [A] Leaving PreprocessingBuilder build()
+19:44:49,982 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:44:49,982 TRACE [B] Leaving ResourcesBuilder build()
+19:45:24,722 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+19:45:24,821 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:45:24,821 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+19:45:24,823 TRACE [A] Leaving PreprocessingBuilder build()
+19:45:24,823 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:45:24,824 TRACE [B] Leaving ResourcesBuilder build()
+19:45:24,824 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+19:45:25,893 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:45:25,894 TRACE [A] Leaving PreprocessingBuilder build()
+19:45:25,894 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:45:25,895 TRACE [B] Leaving ResourcesBuilder build()
+19:45:42,652 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+19:45:42,782 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:45:42,782 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+19:45:42,784 TRACE [A] Leaving PreprocessingBuilder build()
+19:45:42,784 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:45:42,785 TRACE [B] Leaving ResourcesBuilder build()
+19:45:42,785 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+19:45:43,285 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+19:45:45,325 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+19:45:45,326 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+19:45:45,326 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+19:45:45,326 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+19:45:45,327 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+19:45:45,327 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+19:45:45,327 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+19:45:45,327 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+19:45:45,327 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+19:45:45,327 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+19:45:45,328 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+19:45:45,328 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 36 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+19:45:45,328 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 36 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+19:45:45,328 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 36 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+19:45:45,331 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+19:45:45,479 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:45:45,481 TRACE [A] Leaving PreprocessingBuilder build()
+19:45:45,482 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:45:45,482 TRACE [B] Leaving ResourcesBuilder build()
+19:45:45,708 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+19:45:45,753 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+19:45:45,753 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+19:45:45,754 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+19:45:45,754 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+19:45:45,754 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+19:45:45,755 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+19:45:45,760 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+19:45:45,761 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+19:45:45,761 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+19:45:45,762 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+19:45:46,991 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+19:45:46,991 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+19:45:46,991 INFO  [K] Launch MDS-CS:false
+19:45:46,991 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+19:45:46,991 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+19:45:47,010 DEBUG [K] Attaching reuse simulator...
+19:45:47,011 DEBUG [E] debug destination: Reuse simulator
+19:45:47,035 DEBUG [E] Configuring jvm connector
+19:45:47,035 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+19:45:48,328 DEBUG [E] Connected to JVM.
+19:45:48,328 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+19:45:48,328 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+19:45:48,336 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+19:46:11,799 TRACE [A] Entering RIMSourcePathComputer.computerSourceContainers().
+19:46:11,800 TRACE [A] There are 2 source containers.
+19:58:01,148 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+19:58:01,275 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:58:01,275 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+19:58:01,277 TRACE [A] Leaving PreprocessingBuilder build()
+19:58:01,277 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:58:01,278 TRACE [B] Leaving ResourcesBuilder build()
+19:58:01,278 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+19:58:01,361 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+19:58:02,818 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+19:58:02,818 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+19:58:02,818 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+19:58:02,818 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+19:58:02,819 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+19:58:02,819 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+19:58:02,819 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+19:58:02,819 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+19:58:02,819 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+19:58:02,819 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+19:58:02,820 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+19:58:02,820 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 36 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+19:58:02,820 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 36 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+19:58:02,820 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 36 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+19:58:02,827 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+19:58:02,978 TRACE [A] Entering PreprocessingBuilder build();kind=9
+19:58:02,979 TRACE [A] Leaving PreprocessingBuilder build()
+19:58:02,979 TRACE [B] Entering ResourcesBuilder build();kind=9
+19:58:02,980 TRACE [B] Leaving ResourcesBuilder build()
+19:58:03,560 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+19:58:03,561 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+19:58:03,561 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+19:58:03,561 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+19:58:03,561 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+19:58:03,562 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+19:58:03,563 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+19:58:03,568 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+19:58:03,568 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+19:58:03,569 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+19:58:03,570 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+19:58:04,329 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+19:58:04,329 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+19:58:04,329 INFO  [K] Launch MDS-CS:false
+19:58:04,329 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+19:58:04,329 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+19:58:04,350 DEBUG [K] Attaching reuse simulator...
+19:58:04,350 DEBUG [E] debug destination: Reuse simulator
+19:58:04,352 DEBUG [E] Configuring jvm connector
+19:58:04,352 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+19:58:05,645 DEBUG [E] Connected to JVM.
+19:58:05,645 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+19:58:05,645 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+19:58:05,646 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+19:58:24,755 TRACE [A] Entering RIMSourcePathComputer.computerSourceContainers().
+19:58:24,757 TRACE [A] There are 2 source containers.
+20:03:58,196 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:03:58,321 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:03:58,321 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+20:03:58,323 TRACE [A] Leaving PreprocessingBuilder build()
+20:03:58,323 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:03:58,324 TRACE [B] Leaving ResourcesBuilder build()
+20:03:58,325 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:03:58,347 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:03:59,411 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:03:59,413 TRACE [A] Leaving PreprocessingBuilder build()
+20:03:59,413 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:03:59,414 TRACE [B] Leaving ResourcesBuilder build()
+20:04:51,301 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:04:51,431 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:04:51,431 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+20:04:51,433 TRACE [A] Leaving PreprocessingBuilder build()
+20:04:51,433 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:04:51,433 TRACE [B] Leaving ResourcesBuilder build()
+20:04:51,434 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:04:52,456 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:04:52,457 TRACE [A] Leaving PreprocessingBuilder build()
+20:04:52,457 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:04:52,458 TRACE [B] Leaving ResourcesBuilder build()
+20:06:50,547 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:06:50,673 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:06:50,673 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+20:06:50,675 TRACE [A] Leaving PreprocessingBuilder build()
+20:06:50,675 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:06:50,675 TRACE [B] Leaving ResourcesBuilder build()
+20:06:50,676 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:06:50,696 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:06:50,760 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+20:06:52,104 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+20:06:52,105 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+20:06:52,105 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+20:06:52,105 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+20:06:52,105 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+20:06:52,106 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+20:06:52,106 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+20:06:52,106 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+20:06:52,106 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+20:06:52,106 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+20:06:52,106 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+20:06:52,107 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:06:52,107 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:06:52,107 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:06:52,109 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+20:06:52,269 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:06:52,270 TRACE [A] Leaving PreprocessingBuilder build()
+20:06:52,271 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:06:52,271 TRACE [B] Leaving ResourcesBuilder build()
+20:06:52,783 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:06:52,784 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:06:52,784 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:06:52,784 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:06:52,785 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:06:52,785 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:06:52,786 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:06:52,791 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:06:52,792 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:06:52,792 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:06:52,793 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+20:06:53,588 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+20:06:53,588 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+20:06:53,588 INFO  [K] Launch MDS-CS:false
+20:06:53,588 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+20:06:53,588 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+20:06:53,608 DEBUG [K] Attaching reuse simulator...
+20:06:53,608 DEBUG [E] debug destination: Reuse simulator
+20:06:53,610 DEBUG [E] Configuring jvm connector
+20:06:53,610 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+20:06:54,887 DEBUG [E] Connected to JVM.
+20:06:54,887 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+20:06:54,887 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:06:54,887 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:07:37,071 TRACE [A] Entering RIMSourcePathComputer.computerSourceContainers().
+20:07:37,072 TRACE [A] There are 2 source containers.
+20:08:15,168 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:08:15,295 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:08:15,295 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+20:08:15,297 TRACE [A] Leaving PreprocessingBuilder build()
+20:08:15,297 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:08:15,298 TRACE [B] Leaving ResourcesBuilder build()
+20:08:15,299 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:08:15,381 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+20:08:16,764 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+20:08:16,765 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+20:08:16,766 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+20:08:16,766 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+20:08:16,766 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+20:08:16,766 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+20:08:16,767 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+20:08:16,767 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+20:08:16,767 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+20:08:16,767 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+20:08:16,768 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+20:08:16,768 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:08:16,768 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:08:16,768 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:08:16,771 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+20:08:16,927 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:08:16,928 TRACE [A] Leaving PreprocessingBuilder build()
+20:08:16,928 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:08:16,929 TRACE [B] Leaving ResourcesBuilder build()
+20:08:17,546 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:08:17,547 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:08:17,547 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:08:17,547 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:08:17,547 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:08:17,548 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:08:17,548 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:08:17,555 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:08:17,556 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:08:17,557 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:08:17,557 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+20:08:18,313 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+20:08:18,313 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+20:08:18,313 INFO  [K] Launch MDS-CS:false
+20:08:18,313 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+20:08:18,313 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+20:08:18,332 DEBUG [K] Attaching reuse simulator...
+20:08:18,332 DEBUG [E] debug destination: Reuse simulator
+20:08:18,334 DEBUG [E] Configuring jvm connector
+20:08:18,334 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+20:08:19,781 DEBUG [E] Connected to JVM.
+20:08:19,781 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+20:08:19,781 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:08:19,781 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:08:47,139 TRACE [A] Entering RIMSourcePathComputer.computerSourceContainers().
+20:08:47,140 TRACE [A] There are 2 source containers.
+20:15:52,296 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:15:52,430 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:15:52,430 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+20:15:52,432 TRACE [A] Leaving PreprocessingBuilder build()
+20:15:52,432 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:15:52,433 TRACE [B] Leaving ResourcesBuilder build()
+20:15:52,433 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:15:52,454 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:15:52,505 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+20:15:53,842 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+20:15:53,843 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+20:15:53,843 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+20:15:53,843 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+20:15:53,843 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+20:15:53,843 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+20:15:53,844 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+20:15:53,844 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+20:15:53,844 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+20:15:53,844 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+20:15:53,844 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+20:15:53,845 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:15:53,845 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:15:53,845 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:15:53,847 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+20:15:54,002 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:15:54,003 TRACE [A] Leaving PreprocessingBuilder build()
+20:15:54,003 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:15:54,004 TRACE [B] Leaving ResourcesBuilder build()
+20:15:54,761 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:15:54,762 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:15:54,762 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:15:54,762 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:15:54,762 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:15:54,763 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:15:54,764 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:15:54,769 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:15:54,770 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:15:54,770 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:15:54,771 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+20:15:55,443 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+20:15:55,443 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+20:15:55,443 INFO  [K] Launch MDS-CS:false
+20:15:55,443 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+20:15:55,443 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+20:15:55,462 DEBUG [K] Attaching reuse simulator...
+20:15:55,462 DEBUG [E] debug destination: Reuse simulator
+20:15:55,463 DEBUG [E] Configuring jvm connector
+20:15:55,463 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+20:15:56,665 DEBUG [E] Connected to JVM.
+20:15:56,665 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+20:15:56,665 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:15:56,665 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:16:30,328 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:16:31,273 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:16:31,273 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:16:31,274 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:16:31,274 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:16:31,274 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:16:31,274 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:16:31,275 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:16:31,284 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:16:31,285 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:16:31,286 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:16:31,287 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+20:16:32,065 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+20:16:32,065 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+20:16:32,065 INFO  [K] Launch MDS-CS:false
+20:16:32,065 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+20:16:32,065 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+20:16:32,084 DEBUG [K] Attaching reuse simulator...
+20:16:32,084 DEBUG [E] debug destination: Reuse simulator
+20:16:32,086 DEBUG [E] Configuring jvm connector
+20:16:32,086 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+20:16:33,547 DEBUG [E] Connected to JVM.
+20:16:33,547 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+20:16:33,547 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:16:33,547 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:17:45,327 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:17:45,464 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:17:45,464 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/ConfigureSingletonForm.java
+20:17:45,467 TRACE [A] Leaving PreprocessingBuilder build()
+20:17:45,467 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:17:45,468 TRACE [B] Leaving ResourcesBuilder build()
+20:17:45,469 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:17:45,541 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+20:17:46,871 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+20:17:46,871 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+20:17:46,872 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+20:17:46,872 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+20:17:46,872 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+20:17:46,872 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+20:17:46,872 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+20:17:46,873 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+20:17:46,873 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+20:17:46,873 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+20:17:46,873 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+20:17:46,873 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:17:46,873 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:17:46,874 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:17:46,875 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+20:17:47,030 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:17:47,031 TRACE [A] Leaving PreprocessingBuilder build()
+20:17:47,032 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:17:47,032 TRACE [B] Leaving ResourcesBuilder build()
+20:17:47,146 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:17:47,146 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:17:47,147 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:17:47,147 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:17:47,147 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:17:47,147 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:17:47,148 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:17:47,154 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:17:47,155 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:17:47,156 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:17:47,157 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+20:17:47,908 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+20:17:47,908 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+20:17:47,908 INFO  [K] Launch MDS-CS:false
+20:17:47,908 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+20:17:47,908 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+20:17:47,931 DEBUG [K] Attaching reuse simulator...
+20:17:47,931 DEBUG [E] debug destination: Reuse simulator
+20:17:47,934 DEBUG [E] Configuring jvm connector
+20:17:47,934 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+20:17:49,411 DEBUG [E] Connected to JVM.
+20:17:49,411 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+20:17:49,411 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:17:49,412 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:26:12,523 TRACE [A] Entering RIMSourcePathComputer.computerSourceContainers().
+20:26:12,525 TRACE [A] There are 2 source containers.
+20:27:23,926 DEBUG [K] Packaging com.amxmobile.SixBookmarks
+20:27:24,053 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:27:24,053 TRACE [A] Preprocessing file : D:/Code/AmxMobile.BlackBerry.SixBookmarks-1.1/AmxMobile.BlackBerry.SixBookmarks-1.1/com.amxmobile.SixBookmarks/src/com/amxmobile/SixBookmarks/Services/ODataServiceProxy.java
+20:27:24,055 TRACE [A] Leaving PreprocessingBuilder build()
+20:27:24,055 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:27:24,056 TRACE [B] Leaving ResourcesBuilder build()
+20:27:24,057 TRACE [A] Project com.amxmobile.SixBookmarks is marked as need RAPC.
+20:27:24,139 TRACE [E] Execute rapc command: D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\bin\rapc.exe -quiet codename=deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.rapc -sourceroot=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src;D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\res -import=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\lib\net_rim_api.jar D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\bin; Working Directory: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks
+20:27:25,539 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 137 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetValue(String)' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 192 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(String)' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Entities\Entity.java at 198 about Warning!: method 'com.amxmobile.SixBookmarks.Entities.Entity.GetBooleanValue(EntityField)' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 32 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.setBookmarkId(int)' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 67 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalModified()' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\Bookmark.java at 77 about Warning!: method 'com.amxmobile.SixBookmarks.Database.Bookmark.getLocalDeleted()' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFieldConstraint.java at 37 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFieldConstraint.getOperator()' not invoked.
+20:27:25,540 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 82 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,boolean)' not invoked.
+20:27:25,541 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 98 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(String,int,Object)' not invoked.
+20:27:25,541 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Database\SqlFilter.java at 104 about Warning!: method 'com.amxmobile.SixBookmarks.Database.SqlFilter.AddConstraint(EntityField,int,Object)' not invoked.
+20:27:25,541 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Runtime\XmlHelper.java at 62 about Warning!: method 'com.amxmobile.SixBookmarks.Runtime.XmlHelper.GetElementInt32(Element,String,boolean)' not invoked.
+20:27:25,541 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_INSERT' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:27:25,541 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_UPDATE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:27:25,541 TRACE [E] reporting problem D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\src\com\amxmobile\SixBookmarks\Services\ODataServiceProxy.java at 39 about Warning!: member data 'int ODATAOPERATION_DELETE' not required in class: com.amxmobile.SixBookmarks.Services.ODataServiceProxy
+20:27:25,543 TRACE [A] Project com.amxmobile.SixBookmarks is marked as not need RAPC.
+20:27:25,557 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:27:25,557 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:27:25,557 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:27:25,558 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:27:25,558 TRACE [L] Executing erase for file=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:27:25,558 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cod
+20:27:25,559 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.jar to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.jar
+20:27:25,564 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.debug to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.debug
+20:27:25,565 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cso to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.cso
+20:27:25,566 TRACE [L] Executing copy from srcFile=D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.csl to dstFile=D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\com.amxmobile.SixBookmarks.csl
+20:27:25,567 DEBUG [A] Hot-swap: D:\Code\AmxMobile.BlackBerry.SixBookmarks-1.1\AmxMobile.BlackBerry.SixBookmarks-1.1\com.amxmobile.SixBookmarks\deliverables\Standard\5.0.0\com.amxmobile.SixBookmarks.cod
+20:27:25,706 TRACE [A] Entering PreprocessingBuilder build();kind=9
+20:27:25,707 TRACE [A] Leaving PreprocessingBuilder build()
+20:27:25,707 TRACE [B] Entering ResourcesBuilder build();kind=9
+20:27:25,708 TRACE [B] Leaving ResourcesBuilder build()
+20:27:26,360 INFO  [K] Simulator launch command:"D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\fledge.exe" /handheld=9550 /app-param=JvmAlxConfigFile:9550.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9550 /app-param=launch=com.amxmobile.SixBookmarks /app="D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator\Jvm.dll" /app-param=DisableRegistration
+20:27:26,360 INFO  [K] Working directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\simulator
+20:27:26,360 INFO  [K] Launch MDS-CS:false
+20:27:26,360 INFO  [K] MDS-CS directory:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.25\components\MDS
+20:27:26,360 DEBUG [E] Entering AbstractLaunchConfigurationDelegate debug forcom.amxmobile.SixBookmarks
+20:27:26,381 DEBUG [K] Attaching reuse simulator...
+20:27:26,381 DEBUG [E] debug destination: Reuse simulator
+20:27:26,384 DEBUG [E] Configuring jvm connector
+20:27:26,384 DEBUG [E] Connecting to JVM: 
+    hostname: [localhost]
+    port    : [8000]
+    launch  : 
+        Configuration: [com.amxmobile.SixBookmarks]
+        Locator      : [net.rim.ejde.A.C.D]
+
+20:27:27,848 DEBUG [E] Connected to JVM.
+20:27:27,848 DEBUG [E] Leaving AbstractLaunchConfigurationDelegate debug()
+20:27:27,848 INFO  [K] FledgeHook:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:27:27,848 INFO  [K] FledgeHook command:D:\Program Files\Eclipse\eclipse\plugins\net.rim.ejde\vmTools\FledgeHook.exe
+20:29:23,762 TRACE [A] Entering RIMSourcePathComputer.computerSourceContainers().
+20:29:23,764 TRACE [A] There are 2 source containers.

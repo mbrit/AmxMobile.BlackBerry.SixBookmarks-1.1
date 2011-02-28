@@ -146,8 +146,8 @@ public class ConfigureSingletonForm extends MainScreen implements FieldChangeLis
 
 	private void HandleSync() throws Exception
 	{
-		Sync sync = new Sync();
-		sync.DoSync();
+		/*Sync sync = new Sync();
+		sync.DoSync();*/
 		
 		// go...
 		HandleBack();

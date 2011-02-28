@@ -1,8 +1,6 @@
 package com.amxmobile.SixBookmarks.Services;
 
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
@@ -10,8 +8,6 @@ import java.util.Vector;
 import javax.microedition.global.Formatter;
 import javax.microedition.io.Connector;
 import javax.microedition.io.HttpConnection;
-
-import net.rim.device.api.i18n.MessageFormat;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,6 +17,7 @@ import com.amxmobile.SixBookmarks.Database.Bookmark;
 import com.amxmobile.SixBookmarks.Entities.Entity;
 import com.amxmobile.SixBookmarks.Entities.EntityField;
 import com.amxmobile.SixBookmarks.Entities.EntityType;
+import com.amxmobile.SixBookmarks.Runtime.HttpHelper;
 import com.amxmobile.SixBookmarks.Runtime.XmlHelper;
 import com.amxmobile.SixBookmarks.Runtime.XmlSerializer;
 
@@ -109,25 +106,13 @@ public class ODataServiceProxy extends ServiceProxy
 			throw new Exception(Formatter.formatMessage("Cannot handle '{0}'.", new String[] { asString }));
 	}
 	
-	private String ExecuteODataOperation(int opType, String url, String xml) throws Exception
+	private void ExecuteODataOperation(int opType, String url, String xml) throws Exception
 	{
 		// make sure we're authenticated...
 		EnsureApiAuthenticated();
 
 		// send up a post to the shim address...
-		String shimUrl = "http://192.168.1.106/amxservices/services/bookmarksbbshim.aspx?method=";
-		if(opType == ODATAOPERATION_INSERT)
-			shimUrl += "POST";
-		else if(opType == ODATAOPERATION_UPDATE)
-			shimUrl += "MERGE";
-		else if(opType == ODATAOPERATION_DELETE)
-			shimUrl += "DELETE";
-		else
-			throw new Exception(MessageFormat.format("Cannot handle {0}.", new String[] { new Integer(opType).toString() }));
-		shimUrl += "&url=";
-		shimUrl += url;
-		
-		// prep it...
+		String shimUrl = "http://192.168.1.106/amxservices/services/bookmarksbbshim.aspx";
     	HttpConnection conn = null;
     	InputStream stream = null;
         try 
@@ -145,8 +130,6 @@ public class ODataServiceProxy extends ServiceProxy
             }
             
             // send up the XML...
-            if(xml != null && xml.length() > 0)
-            	SendXml(conn, xml);
             
             // open...
             stream = conn.openInputStream();
@@ -166,8 +149,8 @@ public class ODataServiceProxy extends ServiceProxy
             }
 
             // return...
-            String html = raw.toString();
-            return html;
+            //String html = raw.toString();
+            
         }
         finally
         {
@@ -176,23 +159,50 @@ public class ODataServiceProxy extends ServiceProxy
         	if(conn != null)
         		conn.close();
         } 
+		
+//		// show...
+//		HttpRequestBase op = null;
+//		if(opType == ODATAOPERATION_UPDATE)
+//			op = new HttpMerge(url);
+//		else if(opType == ODATAOPERATION_INSERT)
+//			op = new HttpPost(url);
+//		else if(opType == ODATAOPERATION_DELETE)
+//			op = new HttpDelete(url);
+//		else
+//			throw new Exception(Formatter.formatMessage("Cannot handle '{0}'.", new String[] { new Integer(opType).toString() }));
+//		
+//		// add our headers...
+//		Hashtable extraHeaders = GetDownloadSettings().getExtraHeaders();
+//		Enumeration keys = extraHeaders.keys();
+//		while(keys.hasMoreElements())
+//		{
+//			String name = (String)keys.nextElement();
+//			op.addHeader(name, extraHeaders.get(name));
+//		}
+//		
+//		// create an entity...
+//		if(xml != null)
+//			((HttpEntityEnclosingRequestBase)op).setEntity(new ODataEntity(xml));
+//		
+//		// request...
+//		HttpClient client = new DefaultHttpClient();
+//		HttpResponse response = client.execute(op);
+//
+//		// what happened...  200 is OK, but 204 also is (which means no content)...
+//		int code = response.getStatusLine().getStatusCode(); 
+//		if(code != 200 && code != 204)
+//		{
+//			// get...
+//			String error = HttpHelper.GetHttpEntityContent(response.getEntity());
+//			
+//			// throw...
+//			throw new Exception(String.format("Download of '%s' via operation '%s' returned HTTP '%d' (%s).\nResponse: %s\nXML: %s", 
+//					url, opType, code, response.getStatusLine().getReasonPhrase(), error, xml));
+//		}
+		
+		throw new Exception("Not implemented.");
 	}
 		
-	private void SendXml(HttpConnection conn, String xml) throws IOException
-	{
-		OutputStream stream = conn.openOutputStream();
-		try
-		{
-			byte[] bs = xml.getBytes("UTF8");
-			stream.write(bs);
-		}
-		finally
-		{
-			if(stream != null)
-				stream.close();
-		}
-	}
-
 	public void PushInsert(Entity entity) throws Exception 
 	{
 		// an insert is an update but with a different url...

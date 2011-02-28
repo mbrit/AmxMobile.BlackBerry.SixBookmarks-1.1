@@ -1,8 +1,6 @@
 package com.amxmobile.SixBookmarks.Services;
 
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
@@ -10,8 +8,6 @@ import java.util.Vector;
 import javax.microedition.global.Formatter;
 import javax.microedition.io.Connector;
 import javax.microedition.io.HttpConnection;
-
-import net.rim.device.api.i18n.MessageFormat;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,8 +17,8 @@ import com.amxmobile.SixBookmarks.Database.Bookmark;
 import com.amxmobile.SixBookmarks.Entities.Entity;
 import com.amxmobile.SixBookmarks.Entities.EntityField;
 import com.amxmobile.SixBookmarks.Entities.EntityType;
+import com.amxmobile.SixBookmarks.Runtime.HttpHelper;
 import com.amxmobile.SixBookmarks.Runtime.XmlHelper;
-import com.amxmobile.SixBookmarks.Runtime.XmlSerializer;
 
 public class ODataServiceProxy extends ServiceProxy
 {
@@ -109,31 +105,19 @@ public class ODataServiceProxy extends ServiceProxy
 			throw new Exception(Formatter.formatMessage("Cannot handle '{0}'.", new String[] { asString }));
 	}
 	
-	private String ExecuteODataOperation(int opType, String url, String xml) throws Exception
+	private void ExecuteODataOperation(int opType, String url, String xml) throws Exception
 	{
 		// make sure we're authenticated...
 		EnsureApiAuthenticated();
 
 		// send up a post to the shim address...
-		String shimUrl = "http://192.168.1.106/amxservices/services/bookmarksbbshim.aspx?method=";
-		if(opType == ODATAOPERATION_INSERT)
-			shimUrl += "POST";
-		else if(opType == ODATAOPERATION_UPDATE)
-			shimUrl += "MERGE";
-		else if(opType == ODATAOPERATION_DELETE)
-			shimUrl += "DELETE";
-		else
-			throw new Exception(MessageFormat.format("Cannot handle {0}.", new String[] { new Integer(opType).toString() }));
-		shimUrl += "&url=";
-		shimUrl += url;
-		
-		// prep it...
+		String shimUrl = "http://192.168.1.106/amxservices/services/bookmarksbbshim.aspx";
     	HttpConnection conn = null;
     	InputStream stream = null;
         try 
         {
             conn = (HttpConnection)Connector.open(shimUrl);
-            conn.setRequestMethod("POST");
+            conn.setRequestMethod("MERGE");
 
             // headers...
             Hashtable headers = GetDownloadSettings().getExtraHeaders();
@@ -145,8 +129,6 @@ public class ODataServiceProxy extends ServiceProxy
             }
             
             // send up the XML...
-            if(xml != null && xml.length() > 0)
-            	SendXml(conn, xml);
             
             // open...
             stream = conn.openInputStream();
@@ -166,8 +148,8 @@ public class ODataServiceProxy extends ServiceProxy
             }
 
             // return...
-            String html = raw.toString();
-            return html;
+            //String html = raw.toString();
+            
         }
         finally
         {
@@ -176,23 +158,50 @@ public class ODataServiceProxy extends ServiceProxy
         	if(conn != null)
         		conn.close();
         } 
+		
+//		// show...
+//		HttpRequestBase op = null;
+//		if(opType == ODATAOPERATION_UPDATE)
+//			op = new HttpMerge(url);
+//		else if(opType == ODATAOPERATION_INSERT)
+//			op = new HttpPost(url);
+//		else if(opType == ODATAOPERATION_DELETE)
+//			op = new HttpDelete(url);
+//		else
+//			throw new Exception(Formatter.formatMessage("Cannot handle '{0}'.", new String[] { new Integer(opType).toString() }));
+//		
+//		// add our headers...
+//		Hashtable extraHeaders = GetDownloadSettings().getExtraHeaders();
+//		Enumeration keys = extraHeaders.keys();
+//		while(keys.hasMoreElements())
+//		{
+//			String name = (String)keys.nextElement();
+//			op.addHeader(name, extraHeaders.get(name));
+//		}
+//		
+//		// create an entity...
+//		if(xml != null)
+//			((HttpEntityEnclosingRequestBase)op).setEntity(new ODataEntity(xml));
+//		
+//		// request...
+//		HttpClient client = new DefaultHttpClient();
+//		HttpResponse response = client.execute(op);
+//
+//		// what happened...  200 is OK, but 204 also is (which means no content)...
+//		int code = response.getStatusLine().getStatusCode(); 
+//		if(code != 200 && code != 204)
+//		{
+//			// get...
+//			String error = HttpHelper.GetHttpEntityContent(response.getEntity());
+//			
+//			// throw...
+//			throw new Exception(String.format("Download of '%s' via operation '%s' returned HTTP '%d' (%s).\nResponse: %s\nXML: %s", 
+//					url, opType, code, response.getStatusLine().getReasonPhrase(), error, xml));
+//		}
+		
+		throw new Exception("Not implemented.");
 	}
 		
-	private void SendXml(HttpConnection conn, String xml) throws IOException
-	{
-		OutputStream stream = conn.openOutputStream();
-		try
-		{
-			byte[] bs = xml.getBytes("UTF8");
-			stream.write(bs);
-		}
-		finally
-		{
-			if(stream != null)
-				stream.close();
-		}
-	}
-
 	public void PushInsert(Entity entity) throws Exception 
 	{
 		// an insert is an update but with a different url...
@@ -208,56 +217,63 @@ public class ODataServiceProxy extends ServiceProxy
 
 	public void PushUpdate(Entity entity, int serverId) throws Exception 
 	{
+		// did I actually write my own XML serializer before?
+		// http://ahmadferdous.blogspot.com/2009/03/how-to-import-kxml-jar-file-to-your.html
+		
 		// update...
-		XmlSerializer xml = new XmlSerializer();
+		XmlSerializer xml = Xml.newSerializer();
+		StringWriter writer = new StringWriter();
+		xml.setOutput(writer);
 		
-		// start...
-		xml.startDocument("UTF-8", true);
-		xml.setPrefix("", AtomNamespace);
-		xml.setPrefix("m", MsMetadataNamespace);
-		xml.setPrefix("d", MsDataNamespace);
+//		// start...
+//		xml.startDocument("UTF-8", true);
+//		xml.setPrefix("", AtomNamespace);
+//		xml.setPrefix("m", MsMetadataNamespace);
+//		xml.setPrefix("d", MsDataNamespace);
+//		
+//		// start entry and content and properties...
+//		xml.startTag(AtomNamespace, "entry");
+//		xml.startTag(AtomNamespace, "content");
+//		xml.attribute("", "type", "application/xml");
+//		xml.startTag(MsMetadataNamespace, "properties");
+//		
+//		// fields...
+//		EntityType et = entity.getEntityType();
+//		for(int index = 0; index < et.getFields().size(); index++)
+//		{
+//			EntityField field = (EntityField)et.getFields().elementAt(index);
+//			if(!(field.getIsKey()) && field.getIsOnServer())
+//			{
+//				xml.startTag(MsDataNamespace, field.getName());
+//				xml.text(entity.GetValue(field).toString());
+//				xml.endTag(MsDataNamespace, field.getName());
+//			}
+//		}
+//		
+//		// end content and entry...
+//		xml.endTag(MsMetadataNamespace, "properties");
+//		xml.endTag(AtomNamespace, "content");
+//		xml.endTag(AtomNamespace, "entry");
+//		
+//		// end...
+//		xml.endDocument();
+//		
+//		// run...
+//		String url = null; 
+//		int op = ODATAOPERATION_UPDATE;
+//		String xmlAsString = writer.toString();
+//		if(serverId != 0)
+//			url = GetEntityUrlForPush(entity, serverId);
+//		else
+//		{
+//			url = this.GetServiceUrl(et);
+//			op = ODATAOPERATION_INSERT;
+//		}
+//		
+//		// run...
+//		ExecuteODataOperation(op, url, xmlAsString);
 		
-		// start entry and content and properties...
-		xml.startTag(AtomNamespace, "entry");
-		xml.startTag(AtomNamespace, "content");
-		xml.attribute("", "type", "application/xml");
-		xml.startTag(MsMetadataNamespace, "properties");
-		
-		// fields...
-		EntityType et = entity.getEntityType();
-		for(int index = 0; index < et.getFields().size(); index++)
-		{
-			EntityField field = (EntityField)et.getFields().elementAt(index);
-			if(!(field.getIsKey()) && field.getIsOnServer())
-			{
-				xml.startTag(MsDataNamespace, field.getName());
-				xml.text(entity.GetValue(field).toString());
-				xml.endTag(MsDataNamespace, field.getName());
-			}
-		}
-		
-		// end content and entry...
-		xml.endTag(MsMetadataNamespace, "properties");
-		xml.endTag(AtomNamespace, "content");
-		xml.endTag(AtomNamespace, "entry");
-		
-		// end...
-		xml.endDocument();
-		
-		// run...
-		String url = null; 
-		int op = ODATAOPERATION_UPDATE;
-		String xmlAsString = xml.toString();
-		if(serverId != 0)
-			url = GetEntityUrlForPush(entity, serverId);
-		else
-		{
-			url = this.GetServiceUrl(et);
-			op = ODATAOPERATION_INSERT;
-		}
-		
-		// run...
-		ExecuteODataOperation(op, url, xmlAsString);
+		throw new Exception("Not implemented.");
 	}
 
 	private String GetEntityUrlForPush(Entity entity, int serverId)
